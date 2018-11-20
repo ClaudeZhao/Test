@@ -6,4 +6,5 @@ void func(char* str)
 	}
 
 	cout << str << endl;
+	cout << "Done" << endl;
 }
