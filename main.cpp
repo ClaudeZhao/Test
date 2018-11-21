@@ -3,7 +3,11 @@ using namespace std;
 
 class Person
 {
-	public Person() {}
+public:
+	Person() { number = 0; }
+
+private:
+	int number;
 };
 
 int main()
