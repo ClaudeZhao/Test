@@ -4,10 +4,15 @@ using namespace std;
 class Person
 {
 public:
-	Person() { name = NULL; }
+	Person() 
+	{
+		name = NULL;
+		number = 0;
+	}
 	
 private:
-	char* name;
+	int number;
+        char* name;
 };
 
 int main()
